@@ -12,7 +12,6 @@ def test_calculator():
 
     driver.find_element(By.ID, "delay").clear()
     driver.find_element(By.ID, "delay").send_keys(45)
-    time.sleep(3)
 
     driver.find_element(By.XPATH, "//span[text()='7']").click()
     driver.find_element(By.XPATH, "//span[text()='+']").click()
